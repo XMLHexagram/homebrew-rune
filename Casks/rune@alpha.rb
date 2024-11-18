@@ -4,7 +4,7 @@ cask "rune@alpha" do
     version :latest
     sha256 :no_check
       
-    url "https://github.com/Losses/rune/releases/download/v0.0.0-alpha.5/Rune-v0.0.0-alpha.5-0e3da25-macOS.dmg"
+    url "https://github.com/Losses/rune/releases/download/v0.0.0-alpha.6/Rune-v0.0.0-alpha.6-a4d062b-macOS.dmg"
     name "Rune"
     desc "The alpha version of rune player."
     homepage "https://github.com/Losses/rune"
