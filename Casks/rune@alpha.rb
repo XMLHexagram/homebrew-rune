@@ -1,7 +1,7 @@
 cask "rune@alpha" do
     arch arm: "aarch64", intel: "x64"
   
-    version "v0.0.0-alpha.7"
+    version "v0.0.0-alpha.8"
     sha256 :no_check
       
     url "https://github.com/Losses/rune/releases/download/v0.0.0-alpha.8/Rune-v0.0.0-alpha.8-a629c7d-macOS.dmg"
