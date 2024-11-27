@@ -1,10 +1,10 @@
 cask "rune@alpha" do
     arch arm: "aarch64", intel: "x64"
   
-    version "v0.0.0-alpha.14"
+    version "v0.0.0-alpha.15"
     sha256 :no_check
       
-    url "https://github.com/Losses/rune/releases/download/v0.0.0-alpha.14/Rune-v0.0.0-alpha.14-917f748-macOS.dmg"
+    url "https://github.com/Losses/rune/releases/download/v0.0.0-alpha.15/Rune-v0.0.0-alpha.15-d44c894-macOS.dmg"
     name "Rune"
     desc "The alpha version of rune player."
     homepage "https://github.com/Losses/rune"
