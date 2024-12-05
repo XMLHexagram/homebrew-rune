@@ -9,7 +9,7 @@ cask "rune@beta" do
     strategy :github_latest
   end
   
-  url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip"
+  url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip",
       verified: "github.com/Losses/rune/"
   name "Rune"
   desc "Experience timeless melodies with a music player that blends classic design with modern technology."
