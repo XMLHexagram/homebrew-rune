@@ -10,14 +10,14 @@ cask "rune@beta" do
     regex(/^v?(\d+(?:\.\d+)+(?:-beta\.\d+)?)$/)
   end
   
-  url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip",
+  url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip"
   name "Rune"
   desc "Experience timeless melodies with a music player that blends classic design with modern technology."
   homepage "https://github.com/Losses/rune"
 
   auto_updates true
   
-  app "Rune.app"
+  app "Rune.app", target: "Rune@beta.app"
   binary "#{appdir}/Rune.app/Contents/MacOS/Rune"
 
   zap trash: [
