@@ -1,7 +1,7 @@
 cask "rune@beta" do
   arch arm: "aarch64", intel: "x64"
 
-  version "v1.0.0-beta.2"
+  version "1.0.0-beta.2"
   sha256 "f31a8abcf83e9996c119eb4ec330778d9ab327aa029338cd815459729a4100de"
 
   livecheck do
@@ -10,7 +10,7 @@ cask "rune@beta" do
     regex(/^v?(\d+(?:\.\d+)+(?:-beta\.\d+)?)$/)
   end
   
-  url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip"
+  url "https://github.com/Losses/rune/releases/download/v#{version}/Rune-v#{version}-macOS.zip"
   name "Rune"
   desc "Experience timeless melodies with a music player that blends classic design with modern technology."
   homepage "https://github.com/Losses/rune"
