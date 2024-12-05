@@ -7,10 +7,10 @@ cask "rune@beta" do
   livecheck do
     url :url
     strategy :github_latest
+    regex(/^v?(\d+(?:\.\d+)+(?:-beta\.\d+)?)$/)
   end
   
   url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip",
-      verified: "github.com/Losses/rune/"
   name "Rune"
   desc "Experience timeless melodies with a music player that blends classic design with modern technology."
   homepage "https://github.com/Losses/rune"
