@@ -2,7 +2,7 @@ cask "rune@beta" do
     arch arm: "aarch64", intel: "x64"
   
     version "v1.0.0-beta.2"
-    sha256 "d770e81597566dd2d2363feb350f808c7a92e363df95c51e48140eb30e452cc9"
+    sha256 "f31a8abcf83e9996c119eb4ec330778d9ab327aa029338cd815459729a4100de"
       
     url "https://github.com/Losses/rune/releases/download/#{version}/Rune-#{version}-macOS.zip"
     name "Rune"
