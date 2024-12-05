@@ -16,7 +16,6 @@ cask "rune@beta" do
   auto_updates true
 
   app "Rune.app", target: "Rune@beta.app"
-  binary "#{appdir}/Rune@beta.app/Contents/MacOS/Rune"
 
   zap trash: [
     "/Users/hexagram/Library/Application Scripts/ci.not.rune",
