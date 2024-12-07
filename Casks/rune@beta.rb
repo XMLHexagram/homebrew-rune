@@ -1,6 +1,6 @@
 cask "rune@beta" do
-  version "1.0.0-beta.4"
-  sha256 "a69ced3ce781c8bc6d0752264608271c368ba5fb6850379e8ed3394da2f2a6be"
+  version "1.0.0-beta.5"
+  sha256 "4b06f26ea6bcaac3a7555f70e06b1dd0673e46f929536ab7315d7a2c92616506"
 
   url "https://github.com/Losses/rune/releases/download/v#{version}/Rune-v#{version}-macOS.zip"
   name "Rune"
