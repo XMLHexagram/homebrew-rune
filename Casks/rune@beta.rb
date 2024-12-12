@@ -10,7 +10,7 @@ cask "rune@beta" do
   livecheck do
     url :url
     strategy :github_latest
-    regex(/^v?(\d+(?:\.\d+)+(?:-beta\.\d+)?)$/)
+    regex(/^v?(\d+(?:\.\d+)+(?:-(?:beta|rc)\.\d+)?)$/)
   end
 
   auto_updates true
